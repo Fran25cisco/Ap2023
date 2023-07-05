@@ -13,7 +13,7 @@ function Form() {
   const tema = contadorContext()
   return (
     <>
-      <h2>Contactanos</h2>
+      <h2 clasName={"text-"+tema}>Contactanos</h2>
       <form
         action=""
         className={"formulary "+"background-"+tema}
