@@ -59,7 +59,7 @@ function Carrito({ carrito, setCarrito }) {
           })}
         </div>
       </div>
-      <button onClick={()=>{setCarrito([])}}>Comprar</button>
+        {carrito?<button onClick={()=>{setCarrito([])}}>Comprar</button>:null}
     </>
   );
 }
