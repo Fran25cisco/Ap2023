@@ -33,7 +33,10 @@ function App() {
   return (
     <>
       <theme.Provider value={slider}>
-        <div style={{backgroundColor: (slider?"white":"#1f1e1e")}}>
+        <div style={{
+          transition: ("all", "0.5s"),
+          backgroundColor: (slider?"white":"#1f1e1e")}
+          }>
         <Header setActualPage={setActualPage} sliders={{slider, setSlider}}></Header>
         {pages(actualPage)}
       <Footer />

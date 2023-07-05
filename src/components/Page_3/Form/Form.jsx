@@ -1,7 +1,7 @@
 import "./Form.css";
 
 import { useState, useRef } from "react";
-import {contadorContext} from "../../../App.jsx"
+import {contadorContext} from "..//../../App.jsx"
 
 function Form() {
   const [name, setNombre] = useState("");
